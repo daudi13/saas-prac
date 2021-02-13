@@ -1,0 +1,24 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #272727;
+  font-weight: 700;
+  color: #fff;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wrapper .wrapper__desc {
+  font-weight: 400;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,21 @@
+@import './resets';
+@import './variables';
+
+@function uzito($weight-name) {
+    @return map-get($font-weight, $weight-name );
+}
+
+body {
+    background: $pri-clr;
+    font-weight: map-get($font-weight , bold);
+    color: $text-clr;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+
+    #{&}__desc {
+        font-weight: uzito(regular);
+    }
+}
